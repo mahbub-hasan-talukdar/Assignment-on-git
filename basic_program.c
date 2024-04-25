@@ -14,4 +14,4 @@ int main(){
     printf("%d",getFactorial(10));
     printf("%d",getFibonacci(10));
 }
-//second comment
+//first comment
