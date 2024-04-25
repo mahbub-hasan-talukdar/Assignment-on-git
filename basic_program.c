@@ -8,6 +8,7 @@ int getFibonacci(int n){
     if(n<=1){
         return (n<=0)? 0 : 1;
     }
+    int x = 3/0;//error added
     return getFibonacci(n-1) + getFibonacci(n-2);
 }
 int nthPrime(int n){
