@@ -10,6 +10,10 @@ int getFibonacci(int n){
     }
     return getFibonacci(n-1) + getFibonacci(n-2);
 }
+int nthPrime(int n){
+    //function for nth prime
+    return 1;
+}
 int main(){
     printf("%d",getFactorial(10));
     printf("%d",getFibonacci(10));
